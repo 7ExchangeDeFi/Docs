@@ -1,60 +1,141 @@
 ---
-description: What we've shipped and what's coming next.
+description: Full development timeline from early infrastructure through advanced trading features.
 ---
 
 # Roadmap
 
-This roadmap reflects the current development plan for 7.Exchange. Timelines are targets, not guarantees — priorities may shift based on market conditions, security considerations, and community feedback.
+This roadmap covers the full development timeline of 7.Exchange — from early infrastructure work through the current launch phase and into future product expansion. Timelines are targets — priorities may shift based on market conditions, security considerations, and community feedback.
 
-## Phase 1 — Platform Launch (Q2 2026)
+---
 
-Cross-chain swap aggregation engine live, routing across EVM and non-EVM chains. Multi-provider quote evaluation with net-output ranking — every route scored by final received amount after gas, bridge fees, slippage, and MEV exposure. Multiple bridge and cross-chain transport integrations. Aggregated liquidity from hundreds of DEXs, LPs, and on-chain services. Wallet integrations via standardized connectors across EVM, Solana, Bitcoin, Sui, and Tron ecosystems.
+## Q4 2025 — Infrastructure & Interface
 
-Quote authentication with single-use execution payloads — each quote is unique, time-bound, and cryptographically tied to the requesting session. Custom slippage tolerance and route preference controls. Referral and affiliate tracking system with dashboard analytics.
+- [x] **Frontend application**\
+  Next.js-based interface with landing page, swap interface, profile, and affiliate pages. Responsive design across desktop and mobile.
 
-Non-custodial architecture — 7.Exchange never takes custody of user funds at any point in the execution pipeline.
+- [x] **Wallet integrations**\
+  Support for 40+ wallets across EVM (MetaMask, Trust, Rabby, WalletConnect), Solana (Phantom, Solflare), Bitcoin (Xverse, Leather), Sui, and Tron ecosystems.
 
-**Status: Live**
+- [x] **SIWE authentication**\
+  Sign-In with Ethereum and equivalent standards for non-EVM chains. Wallet-based identity with no email/password accounts.
 
-## Phase 2 — Token & Developer Platform (Q3 2026)
+- [x] **Affiliate and scoring system**\
+  Referral link creation, wallet binding, commission tracking, and real-time affiliate dashboard with activity feed and earnings breakdown.
 
-7.Exchange native token launch with protocol-level utility: fee discounts, staking mechanisms, and governance participation.
+- [x] **Deeper liquidity source integrations**\
+  Expanded bridge and DEX provider coverage. Integration with Relay Protocol, Across Protocol, THORChain, and MayaChain for cross-chain routing.
 
-Public REST API with authenticated endpoints for quote retrieval, route computation, and transaction construction. TypeScript SDK for programmatic integration — designed for wallets, trading terminals, portfolio dApps, and institutional desks. Affiliate API enabling partners to embed 7.Exchange routing with revenue-share tracking.
+- [x] **User profile system**\
+  Multi-wallet profile management with custom avatars, display names, leaderboard ranking, activity charts, and per-chain/bridge/exchange usage statistics.
 
-Developer documentation, integration guides, and sandbox environment.
+- [x] **Notification system**\
+  Public and private notification feeds with read status tracking and real-time updates on swap activity and platform announcements.
 
-**Status: In development**
+---
 
-## Phase 3 — Advanced Execution Modes (Q4 2026)
+## Q1 2026 — Routing Engine & Core Systems
 
-On-chain limit order engine — price-targeted orders held off-chain with authenticated execution triggered when market conditions are met. No continuous user signing required.
+- [x] **Quote engine implementation**\
+  Multi-provider quote aggregation with real-time path simulation. Each route scored by net output after gas, bridge fees, slippage, and MEV exposure. Quotes are unique, time-bound, and single-use.
 
-Direct Swap — wallet-less swap execution for supported pairs. Users provide a receiving address and send funds from any source (hardware wallet, CEX withdrawal, any on-chain wallet) without connecting to the platform.
+- [x] **Cross-chain swap execution pipeline**\
+  End-to-end execution flow: quote locking, authenticated payload construction, wallet signing, on-chain submission, and real-time status tracking across chains.
 
-Aggregated perpetual DEX routing — unified interface for opening, managing, and closing perpetual positions across multiple on-chain venues. Cross-chain margin routing without manual network switching.
+- [x] **Route comparison and ranking**\
+  Multi-route display with sorting by highest output, fastest execution, and lowest fee. Route step visualization showing each bridge, swap, and service in the path.
 
-Unified transaction history across swaps, limit orders, sends, and perpetual positions.
+- [x] **Custom swap settings**\
+  User-configurable slippage tolerance, provider/bridge exclusion, and custom token imports via contract address.
 
-**Status: Planned**
+- [x] **Transaction tracking system**\
+  Real-time execution tracker with status progression (pending, in progress, completed, failed), transaction hash links, and provider attribution.
 
-## Phase 4 — Protocol Contracts & On-Chain Infrastructure (H1 2027)
+- [x] **Token and chain data infrastructure**\
+  Automated token and chain metadata ingestion from third-party data providers. Searchable token lists organized by chain with logo, symbol, and contract address resolution.
 
-Deployment of the 7.Exchange Diamond Router — modular, upgradeable smart contract architecture for on-chain route execution and settlement. Completion of pre-deployment bug bounty program followed by independent third-party security audits.
+- [x] **Leaderboard system**\
+  Score-based and referral-based leaderboards ranking users by platform activity and affiliate performance.
 
-On-chain fee accrual and distribution mechanism integrated with the native token. Hybrid execution model: smart contract routing on deployed chains with provider-API fallback for maximum coverage.
+---
 
-Published audit reports and verified contract addresses.
+## Q2 2026 — Public Launch & Expansion
 
-**Status: Planned**
+- [x] **MVP public launch**\
+  Full platform live at [7.exchange](https://7.exchange). Cross-chain swap aggregation across 128+ chains, 10+ bridges, and 274+ liquidity sources through a single non-custodial interface. See the [Integrations page](https://7.exchange/integrations) for the live count.
 
-## Phase 5 — Protocol Expansion (H2 2027 and beyond)
+- [ ] **Direct Swap via Chainflip**\
+  Wallet-less swap execution using Chainflip's deposit address model. Users provide a receiving address and send funds from any source — hardware wallet, CEX withdrawal, or any on-chain wallet — without connecting to the platform.
 
-Extended Direct Swap coverage across all supported chains. Governance framework activation for protocol-level decision making. Advanced order types: DCA (dollar-cost averaging), TWAP (time-weighted average price), and conditional execution.
+- [ ] **Public REST API**\
+  Authenticated API endpoints for programmatic access to the routing engine: quote retrieval, route computation, transaction construction, transaction status polling, and chain/token/provider discovery.
 
-Embeddable swap widget for third-party dApps and websites. Cross-chain portfolio aggregation and analytics. Continued expansion of bridge and liquidity provider integrations based on performance metrics and community governance.
+- [ ] **Tokenomics design**\
+  Token model specification including utility mechanics (fee reduction, staking rewards, governance voting weight), supply structure, vesting schedules, and distribution framework.
 
-**Status: Planned**
+- [ ] **Additional provider integrations**\
+  New bridge and liquidity provider integrations to expand chain coverage, improve route diversity, and increase competition between providers for better user outcomes.
+
+- [ ] **Diamond Router smart contracts bug bounty**\
+  Pre-deployment security program for the modular on-chain routing contracts (EIP-2535 Diamond standard). Open to external security researchers with structured reward tiers based on severity.
+
+---
+
+## Q3 2026 — Token Launch & Developer Tools
+
+- [ ] **Token contract audit**\
+  Independent third-party security audit of the token smart contract. Audit report published publicly prior to token launch.
+
+- [ ] **Token launch**\
+  Native 7.Exchange token live on-chain with protocol-level utility: reduced routing fees for holders, staking with yield from protocol revenue, and governance participation for protocol parameter decisions.
+
+- [ ] **TypeScript SDK**\
+  Developer SDK wrapping the REST API for streamlined integration. Includes quote fetching, route comparison, transaction building, status callbacks, and configurable routing parameters. Designed for wallets, trading terminals, portfolio dApps, and institutional desks.
+
+- [ ] **Embeddable swap widget**\
+  Drop-in React component that partners and dApps can embed directly into their products. Customizable theming, token/chain restrictions, and affiliate fee attribution built in.
+
+- [ ] **Limit orders**\
+  On-chain limit order engine. Users set a target price and the order executes automatically when market conditions are met. Orders are held off-chain with authenticated execution — no continuous wallet signing required.
+
+- [ ] **Expanded provider integrations**\
+  Continued broadening of bridge, DEX, and liquidity source coverage. LayerZero transfer integration. Provider performance monitoring with automatic route quality scoring.
+
+---
+
+## Q4 2026 — Advanced Trading
+
+- [ ] **Perpetual trading aggregation**\
+  Unified interface for aggregated perpetual DEX trading. Open, manage, and close leveraged positions across multiple on-chain perp venues through the 7.Exchange routing engine. Cross-chain margin routing without manual network switching.
+
+- [ ] **Expanded provider integrations**\
+  Further broadening of chain coverage and liquidity depth. New perp venue integrations. Provider selection refined by historical execution quality, fill rates, and reliability metrics.
+
+---
+
+## Beyond 2026
+
+The following items are on the longer-term roadmap. Timing and prioritization will be guided by community governance once the token and governance framework are active.
+
+- [ ] **Diamond Router contract deployment**\
+  Mainnet deployment of the audited on-chain routing contracts. Hybrid execution model: smart contract routing where deployed, provider-API fallback for maximum coverage.
+
+- [ ] **On-chain fee distribution**\
+  Protocol revenue accrual and distribution through the Diamond Router contracts, integrated with the native token staking mechanism.
+
+- [ ] **Governance framework**\
+  On-chain governance for protocol parameters, provider inclusion/exclusion, fee structures, and treasury allocation.
+
+- [ ] **Extended Direct Swap coverage**\
+  Deposit-based wallet-less swaps expanded beyond Chainflip to additional providers and chain pairs.
+
+- [ ] **Advanced order types**\
+  DCA (dollar-cost averaging), TWAP (time-weighted average price), and conditional execution strategies.
+
+- [ ] **Cross-chain portfolio aggregation**\
+  Unified portfolio view across all connected wallets and chains with balance tracking, performance analytics, and rebalancing tools.
+
+- [ ] **Ecosystem plugins**\
+  Embeddable swap and trading widgets for third-party dApps, websites, and wallet extensions.
 
 ---
 
