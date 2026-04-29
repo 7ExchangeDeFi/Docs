@@ -10,8 +10,8 @@ description: Report security vulnerabilities and earn rewards.
 
 The bug bounty program currently covers:
 
-- **7.Exchange smart contracts** — The Diamond Router contracts are in pre-deployment testing. Vulnerabilities found in these contracts during the bounty period are in scope.
-- **Platform security** — Critical vulnerabilities affecting the integrity of quotes, execution payloads, or user data.
+- **7.Exchange smart contracts** The Diamond Router contracts are in pre-deployment testing. Vulnerabilities found in these contracts during the bounty period are in scope.
+- **Platform security** Critical vulnerabilities affecting the integrity of quotes, execution payloads, or user data.
 
 ### Out of scope
 
@@ -30,9 +30,9 @@ The bug bounty program currently covers:
 
 ## Response timeline
 
-- **Acknowledgment** — Within 48 hours of receiving your report.
-- **Assessment** — We will evaluate severity and impact within 5 business days.
-- **Resolution** — Timeline depends on complexity. We will keep you informed of progress.
+- **Acknowledgment** Within 48 hours of receiving your report.
+- **Assessment** We will evaluate severity and impact within 5 business days.
+- **Resolution** Timeline depends on complexity. We will keep you informed of progress.
 
 ## Rewards
 

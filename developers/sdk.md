@@ -1,5 +1,5 @@
 ---
-description: TypeScript SDK for integrating 7.Exchange routing — coming soon.
+description: TypeScript SDK for integrating 7.Exchange routing coming soon.
 ---
 
 # SDK
@@ -22,10 +22,10 @@ Planned capabilities:
 
 ## Designed for
 
-- **Wallets** — Add cross-chain swap functionality to any wallet
-- **dApps** — Embed swap routing into DeFi applications
-- **Trading desks** — Programmatic access to best-execution cross-chain routing
-- **Portfolio tools** — Enable swaps and rebalancing within portfolio management interfaces
+- **Wallets** Add cross-chain swap functionality to any wallet
+- **dApps** Embed swap routing into DeFi applications
+- **Trading desks** Programmatic access to best-execution cross-chain routing
+- **Portfolio tools** Enable swaps and rebalancing within portfolio management interfaces
 
 ## Early access
 

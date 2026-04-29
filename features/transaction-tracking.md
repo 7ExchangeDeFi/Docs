@@ -23,12 +23,12 @@ After you sign and submit a transaction, the execution tracker appears in the sw
 
 Each tracked transaction shows:
 
-- **Transaction ID** — Your unique swap identifier
-- **Quote ID** — The quote this transaction was executed against
-- **Provider** — Which bridge or DEX handled the swap
-- **Source and destination** — Tokens, chains, and amounts
-- **Hash** — On-chain transaction hash(es) for each leg of the route
-- **Status** — Current execution state with timestamps
+- **Transaction ID** Your unique swap identifier
+- **Quote ID** The quote this transaction was executed against
+- **Provider** Which bridge or DEX handled the swap
+- **Source and destination** Tokens, chains, and amounts
+- **Hash** On-chain transaction hash(es) for each leg of the route
+- **Status** Current execution state with timestamps
 
 ## Transaction history
 
@@ -40,9 +40,9 @@ The history shows the last 20 transactions with details on date, tokens, amounts
 
 If a transaction shows **In progress** for an extended period:
 
-1. **Wait** — Cross-chain transactions can take several minutes to hours depending on the chains involved and network congestion. This is normal.
-2. **Check the provider** — Some bridge protocols have their own status tracking. The provider name is shown in your transaction details.
-3. **Contact support** — If the transaction remains unresolved after a reasonable period, reach out to support with your Transaction ID or Quote ID.
+1. **Wait** Cross-chain transactions can take several minutes to hours depending on the chains involved and network congestion. This is normal.
+2. **Check the provider** Some bridge protocols have their own status tracking. The provider name is shown in your transaction details.
+3. **Contact support** If the transaction remains unresolved after a reasonable period, reach out to support with your Transaction ID or Quote ID.
 
 {% hint style="info" %}
 7.Exchange cannot cancel, reverse, or modify on-chain transactions. Resolution of stuck cross-chain transfers depends on the underlying bridge provider's recovery mechanisms.

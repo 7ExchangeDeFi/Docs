@@ -1,5 +1,5 @@
 ---
-description: Integrate 7.Exchange routing and earn revenue share — coming soon.
+description: Integrate 7.Exchange routing and earn revenue share coming soon.
 ---
 
 # Partner Integration
@@ -14,7 +14,7 @@ The partner integration program is under development. Affiliate API and partner 
 
 ### Routing as a service
 
-Partners integrate the 7.Exchange API or SDK and instantly gain access to the full routing engine — all supported chains, bridges, liquidity sources, and quote optimization — without building or maintaining any of that infrastructure.
+Partners integrate the 7.Exchange API or SDK and instantly gain access to the full routing engine all supported chains, bridges, liquidity sources, and quote optimization without building or maintaining any of that infrastructure.
 
 ### Revenue sharing
 

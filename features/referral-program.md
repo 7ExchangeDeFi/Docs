@@ -8,25 +8,25 @@ description: Earn crypto rewards by referring traders to 7.Exchange.
 
 ## How it works
 
-1. **Sign in** — Connect your wallet and sign in to access the affiliate dashboard.
-2. **Create a referral link** — Go to the Affiliate page and create a named referral link. You can create multiple links for different channels (e.g., one for Twitter, one for Discord, one for friends).
-3. **Share your link** — Send your link to others or share it publicly.
-4. **Earn rewards** — When someone uses your link and trades on supported chains, you earn a percentage of the routing fee from their transactions.
+1. **Sign in** Connect your wallet and sign in to access the affiliate dashboard.
+2. **Create a referral link** Go to the Affiliate page and create a named referral link. You can create multiple links for different channels (e.g., one for Twitter, one for Discord, one for friends).
+3. **Share your link** Send your link to others or share it publicly.
+4. **Earn rewards** When someone uses your link and trades on supported chains, you earn a percentage of the routing fee from their transactions.
 
 ## Affiliate dashboard
 
 Your affiliate dashboard shows:
 
-- **My Links** — All your referral links with performance data
-- **Referral Activity** — Real-time feed of trades made by your referrals, including swap details, reward amount, and status
-- **Stats** — Total rewards earned, number of referrals, and referral volume
+- **My Links** All your referral links with performance data
+- **Referral Activity** Real-time feed of trades made by your referrals, including swap details, reward amount, and status
+- **Stats** Total rewards earned, number of referrals, and referral volume
 
 ## Creating referral links
 
 When creating a link, you can:
 
-- **Name it** — Give each link a descriptive name so you can track where your referrals come from.
-- **Bind wallets** — Attach specific profile wallets to a referral link. This links the referral tracking to your wallet addresses.
+- **Name it** Give each link a descriptive name so you can track where your referrals come from.
+- **Bind wallets** Attach specific profile wallets to a referral link. This links the referral tracking to your wallet addresses.
 
 You can create as many referral links as you need.
 
@@ -56,5 +56,5 @@ Active affiliates can track their ranking on the **Referral Leaderboard**, which
 For full legal terms, see [Terms & Conditions](https://7.exchange/terms).
 
 {% hint style="info" %}
-Referral rewards come from the platform's routing fee — they do not increase costs for the referred user.
+Referral rewards come from the platform's routing fee they do not increase costs for the referred user.
 {% endhint %}

@@ -4,7 +4,7 @@ description: Swap tokens across chains through a single interface.
 
 # Cross-Chain Swaps
 
-Cross-chain swaps are the core feature of 7.Exchange. Swap any supported token on any supported chain to any other supported token on any other chain — all from one interface.
+Cross-chain swaps are the core feature of 7.Exchange. Swap any supported token on any supported chain to any other supported token on any other chain all from one interface.
 
 ## How it works
 

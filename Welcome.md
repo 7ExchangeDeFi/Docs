@@ -1,10 +1,10 @@
 ---
-description: Cross-chain DEX aggregator — best execution routing across chains, bridges, and liquidity sources.
+description: Cross-chain DEX aggregator best execution routing across chains, bridges, and liquidity sources.
 ---
 
 # Welcome to 7.Exchange
 
-7.Exchange is a cross-chain DEX aggregator that finds the best swap route across chains, bridges, and liquidity sources — all through a single non-custodial interface.
+7.Exchange is a cross-chain DEX aggregator that finds the best swap route across chains, bridges, and liquidity sources all through a single non-custodial interface.
 
 The routing engine evaluates quotes from multiple providers in real time, ranks them by net output after gas, bridge fees, slippage, and MEV exposure, and delivers the route that maximizes what you actually receive.
 
@@ -39,7 +39,7 @@ The routing engine evaluates quotes from multiple providers in real time, ranks 
 | **Bridges** | 10+ cross-chain transport integrations |
 | **Liquidity** | 274+ DEXs, LPs, and on-chain services |
 | **Wallets** | 40+ supported wallet integrations |
-| **Custody** | Non-custodial — 7.Exchange never holds your funds |
+| **Custody** | Non-custodial 7.Exchange never holds your funds |
 
 {% hint style="info" %}
 Integration counts change as providers are added. For the live list, see the [Integrations page](https://7.exchange/#integrations).
@@ -54,7 +54,7 @@ Integration counts change as providers are added. For the live list, see the [In
 | X (Twitter) | [@7exchangeDeFi](https://x.com/7exchangeDeFi) |
 | Discord | [7.Exchange](https://discord.com/invite/8aujTp5znT) |
 | Telegram | [@Dex\_7exchange](https://t.me/Dex_7exchange) |
-| LinkedIn | [7exchange](https://www.linkedin.com/company/7exchange7exchange) |
+| LinkedIn | [7exchange](https://www.linkedin.com/company/7exchange) |
 | GitHub | [7ExchangeDefi](https://github.com/7ExchangeDefi) |
 | Medium | [7-exchange.medium.com](https://7-exchange.medium.com/) |
 | Email | [contact@7.exchange](mailto:contact@7.exchange) |

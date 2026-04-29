@@ -31,10 +31,10 @@ Once both tokens and an amount are set, 7.Exchange fetches quotes from all avail
 
 Each route shows:
 
-- **Output** — The estimated amount you'll receive
-- **Fee** — Total cost including gas, bridge fees, and routing fee
-- **ETA** — Estimated time to completion
-- **Provider** — Which bridge or DEX is used for each step
+- **Output** The estimated amount you'll receive
+- **Fee** Total cost including gas, bridge fees, and routing fee
+- **ETA** Estimated time to completion
+- **Provider** Which bridge or DEX is used for each step
 
 The recommended route is highlighted by default. You can sort routes by **Highest Output**, **Fastest**, or **Lowest Fee** depending on your priority.
 
@@ -48,15 +48,15 @@ Quotes refresh automatically. The countdown timer shows when the next refresh oc
 
 Click the settings icon to customize:
 
-- **Slippage tolerance** — The maximum price deviation you'll accept. Default is usually sufficient, but you can adjust for volatile tokens.
-- **Excluded providers** — Remove specific exchanges or bridges from consideration if you prefer not to route through them.
+- **Slippage tolerance** The maximum price deviation you'll accept. Default is usually sufficient, but you can adjust for volatile tokens.
+- **Excluded providers** Remove specific exchanges or bridges from consideration if you prefer not to route through them.
 
 ## 6. Confirm and execute
 
 Once you've selected a route:
 
 1. Click **Swap** to lock the quote.
-2. Review the **Quote Preview** — verify the tokens, amounts, and route details.
+2. Review the **Quote Preview** verify the tokens, amounts, and route details.
 3. Click **Execute Quote**.
 4. Your wallet will prompt you to sign the transaction. Review and approve it.
 
@@ -78,5 +78,5 @@ For cross-chain swaps, execution may take anywhere from a few seconds to several
 ## Tips
 
 - **Start with a small amount** if this is your first time using the platform or swapping on an unfamiliar chain.
-- **Check your destination wallet** — if you're swapping to a different chain ecosystem (e.g., EVM to Solana), make sure the correct destination wallet is connected.
-- **Quotes are time-sensitive** — if a quote expires before you execute, the system will fetch a fresh one automatically.
+- **Check your destination wallet** if you're swapping to a different chain ecosystem (e.g., EVM to Solana), make sure the correct destination wallet is connected.
+- **Quotes are time-sensitive** if a quote expires before you execute, the system will fetch a fresh one automatically.

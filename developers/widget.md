@@ -1,5 +1,5 @@
 ---
-description: Embeddable cross-chain swap interface for websites and dApps — coming soon.
+description: Embeddable cross-chain swap interface for websites and dApps coming soon.
 ---
 
 # Widget
@@ -15,18 +15,18 @@ A drop-in swap interface that partners and dApps can embed directly into their p
 ## Planned capabilities
 
 - **Embeddable React component** with a single script tag or npm install
-- **Customizable theming** — match your product's colors, fonts, and layout
-- **Token and chain restrictions** — limit available tokens or chains to fit your use case
-- **Affiliate attribution** — automatic referral fee tracking tied to your partner integration key
-- **Full routing access** — same multi-provider quote evaluation and net-output ranking as the main app
-- **Non-custodial** — user funds never pass through the widget host or 7.Exchange
+- **Customizable theming** match your product's colors, fonts, and layout
+- **Token and chain restrictions** limit available tokens or chains to fit your use case
+- **Affiliate attribution** automatic referral fee tracking tied to your partner integration key
+- **Full routing access** same multi-provider quote evaluation and net-output ranking as the main app
+- **Non-custodial** user funds never pass through the widget host or 7.Exchange
 
 ## Use cases
 
-- **Wallet apps** — let users swap cross-chain without leaving the wallet
-- **DeFi dashboards** — add swap functionality alongside portfolio and analytics tools
-- **NFT marketplaces** — enable buyers to pay with any token on any chain
-- **Token project sites** — let users buy your token directly from your homepage
+- **Wallet apps** let users swap cross-chain without leaving the wallet
+- **DeFi dashboards** add swap functionality alongside portfolio and analytics tools
+- **NFT marketplaces** enable buyers to pay with any token on any chain
+- **Token project sites** let users buy your token directly from your homepage
 
 ## How it will work
 

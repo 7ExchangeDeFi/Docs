@@ -1,5 +1,5 @@
 ---
-description: REST API for programmatic access to 7.Exchange routing — coming soon.
+description: REST API for programmatic access to 7.Exchange routing coming soon.
 ---
 
 # API Reference

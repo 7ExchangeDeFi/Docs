@@ -4,11 +4,11 @@ description: Full development timeline from early infrastructure through advance
 
 # Roadmap
 
-This roadmap covers the full development timeline of 7.Exchange — from early infrastructure work through the current launch phase and into future product expansion. Timelines are targets — priorities may shift based on market conditions, security considerations, and community feedback.
+This roadmap covers the full development timeline of 7.Exchange from early infrastructure work through the current launch phase and into future product expansion. Timelines are targets priorities may shift based on market conditions, security considerations, and community feedback.
 
 ---
 
-## Q4 2025 — Infrastructure & Interface
+## Q4 2025 Infrastructure & Interface
 
 - [x] **Frontend application**\
   Next.js-based interface with landing page, swap interface, profile, and affiliate pages. Responsive design across desktop and mobile.
@@ -33,7 +33,7 @@ This roadmap covers the full development timeline of 7.Exchange — from early i
 
 ---
 
-## Q1 2026 — Routing Engine & Core Systems
+## Q1 2026 Routing Engine & Core Systems
 
 - [x] **Quote engine implementation**\
   Multi-provider quote aggregation with real-time path simulation. Each route scored by net output after gas, bridge fees, slippage, and MEV exposure. Quotes are unique, time-bound, and single-use.
@@ -58,13 +58,13 @@ This roadmap covers the full development timeline of 7.Exchange — from early i
 
 ---
 
-## Q2 2026 — Public Launch & Expansion
+## Q2 2026 Public Launch & Expansion
 
 - [x] **MVP public launch**\
   Full platform live at [7.exchange](https://7.exchange). Cross-chain swap aggregation across 128+ chains, 10+ bridges, and 274+ liquidity sources through a single non-custodial interface. See the [Integrations page](https://7.exchange/integrations) for the live count.
 
 - [ ] **Direct Swap via Chainflip**\
-  Wallet-less swap execution using Chainflip's deposit address model. Users provide a receiving address and send funds from any source — hardware wallet, CEX withdrawal, or any on-chain wallet — without connecting to the platform.
+  Wallet-less swap execution using Chainflip's deposit address model. Users provide a receiving address and send funds from any source hardware wallet, CEX withdrawal, or any on-chain wallet without connecting to the platform.
 
 - [ ] **Public REST API**\
   Authenticated API endpoints for programmatic access to the routing engine: quote retrieval, route computation, transaction construction, transaction status polling, and chain/token/provider discovery.
@@ -80,7 +80,7 @@ This roadmap covers the full development timeline of 7.Exchange — from early i
 
 ---
 
-## Q3 2026 — Token Launch & Developer Tools
+## Q3 2026 Token Launch & Developer Tools
 
 - [ ] **Token contract audit**\
   Independent third-party security audit of the token smart contract. Audit report published publicly prior to token launch.
@@ -95,14 +95,14 @@ This roadmap covers the full development timeline of 7.Exchange — from early i
   Drop-in React component that partners and dApps can embed directly into their products. Customizable theming, token/chain restrictions, and affiliate fee attribution built in.
 
 - [ ] **Limit orders**\
-  On-chain limit order engine. Users set a target price and the order executes automatically when market conditions are met. Orders are held off-chain with authenticated execution — no continuous wallet signing required.
+  On-chain limit order engine. Users set a target price and the order executes automatically when market conditions are met. Orders are held off-chain with authenticated execution no continuous wallet signing required.
 
 - [ ] **Expanded provider integrations**\
   Continued broadening of bridge, DEX, and liquidity source coverage. LayerZero transfer integration. Provider performance monitoring with automatic route quality scoring.
 
 ---
 
-## Q4 2026 — Advanced Trading
+## Q4 2026 Advanced Trading
 
 - [ ] **Perpetual trading aggregation**\
   Unified interface for aggregated perpetual DEX trading. Open, manage, and close leveraged positions across multiple on-chain perp venues through the 7.Exchange routing engine. Cross-chain margin routing without manual network switching.

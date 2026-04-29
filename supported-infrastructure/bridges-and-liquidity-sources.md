@@ -8,7 +8,7 @@ description: Bridge protocols and liquidity sources integrated into 7.Exchange.
 
 ## Bridge providers
 
-Bridge providers handle the cross-chain transport layer — moving assets between blockchain networks. Each bridge has its own mechanism, security model, and supported chain pairs.
+Bridge providers handle the cross-chain transport layer moving assets between blockchain networks. Each bridge has its own mechanism, security model, and supported chain pairs.
 
 7.Exchange integrates with multiple bridge protocols to maximize route coverage and redundancy. For any given cross-chain swap, multiple bridges may offer routes, and the engine ranks them by final output.
 
@@ -18,7 +18,7 @@ For on-chain swaps (within a single chain or as part of a multi-step cross-chain
 
 ## Provider selection
 
-7.Exchange is provider-agnostic. The routing engine does not favor any single provider. For each swap, all available providers are queried and the best result is selected based on net output, speed, or fee — depending on your sort preference.
+7.Exchange is provider-agnostic. The routing engine does not favor any single provider. For each swap, all available providers are queried and the best result is selected based on net output, speed, or fee depending on your sort preference.
 
 Different providers may be optimal for different swaps depending on the token pair, amount, and chain combination.
 

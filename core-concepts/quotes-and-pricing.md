@@ -24,21 +24,21 @@ Each quote displayed in the interface includes:
 | **Provider** | Which bridge, DEX, or service handles each step |
 | **Route steps** | Breakdown of the path your swap takes |
 
-The **Output** figure is a net number — fees and costs are already deducted. What you see is what you should expect to receive, subject to slippage.
+The **Output** figure is a net number fees and costs are already deducted. What you see is what you should expect to receive, subject to slippage.
 
 ## What affects pricing
 
 Several factors influence the rate you get on any given swap:
 
-**Liquidity depth** — Larger swaps may experience more slippage if the available liquidity on the best route can't absorb the full amount at the quoted price.
+**Liquidity depth** Larger swaps may experience more slippage if the available liquidity on the best route can't absorb the full amount at the quoted price.
 
-**Network gas costs** — Gas prices fluctuate based on chain congestion. High gas periods reduce your net output.
+**Network gas costs** Gas prices fluctuate based on chain congestion. High gas periods reduce your net output.
 
-**Bridge fees** — Each bridge protocol charges its own fee for cross-chain transfers. These vary by bridge, chain pair, and transfer size.
+**Bridge fees** Each bridge protocol charges its own fee for cross-chain transfers. These vary by bridge, chain pair, and transfer size.
 
-**Token pair availability** — Some token pairs have direct routes; others require multi-step paths through intermediate tokens, which adds cost.
+**Token pair availability** Some token pairs have direct routes; others require multi-step paths through intermediate tokens, which adds cost.
 
-**Market volatility** — Rapid price movements between quote time and execution time can cause the final amount to differ from the estimate.
+**Market volatility** Rapid price movements between quote time and execution time can cause the final amount to differ from the estimate.
 
 ## Quote expiration
 

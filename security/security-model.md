@@ -8,13 +8,13 @@ description: How 7.Exchange handles security.
 
 ## Non-custodial
 
-7.Exchange never holds, controls, or has access to your funds. Your assets remain in your wallet until you sign a transaction. The platform generates transaction payloads — you decide whether to sign and broadcast them.
+7.Exchange never holds, controls, or has access to your funds. Your assets remain in your wallet until you sign a transaction. The platform generates transaction payloads you decide whether to sign and broadcast them.
 
 There is no deposit step, no account balance, and no withdrawal process. Every trade is a direct wallet-to-protocol transaction that you authorize.
 
 ## Wallet authentication
 
-7.Exchange uses Sign-In with Ethereum (SIWE) and equivalent standards for other ecosystems to verify wallet ownership. Signing in involves signing a message — not a transaction. This signature proves you own the address without granting any on-chain permissions.
+7.Exchange uses Sign-In with Ethereum (SIWE) and equivalent standards for other ecosystems to verify wallet ownership. Signing in involves signing a message not a transaction. This signature proves you own the address without granting any on-chain permissions.
 
 Your wallet connection allows 7.Exchange to:
 
@@ -31,10 +31,10 @@ It does not allow 7.Exchange to:
 
 Every quote on 7.Exchange includes built-in safeguards:
 
-- **Unique ID** — Each quote has a unique identifier. No duplicates.
-- **Single-use** — A quote can only be executed once, preventing replay.
-- **Time-bound** — Quotes expire after a short window. Stale quotes cannot be executed.
-- **Session-bound** — Quotes are tied to the requesting wallet session.
+- **Unique ID** Each quote has a unique identifier. No duplicates.
+- **Single-use** A quote can only be executed once, preventing replay.
+- **Time-bound** Quotes expire after a short window. Stale quotes cannot be executed.
+- **Session-bound** Quotes are tied to the requesting wallet session.
 
 These properties ensure that the route you approve is the route that executes.
 

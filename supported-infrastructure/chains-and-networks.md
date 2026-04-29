@@ -32,8 +32,8 @@ This means:
 
 ## Chain-specific considerations
 
-**Gas tokens** — Each chain requires its native token for gas. Make sure you have enough gas on the destination chain to interact with received tokens after the swap.
+**Gas tokens** Each chain requires its native token for gas. Make sure you have enough gas on the destination chain to interact with received tokens after the swap.
 
-**Finality times** — Different chains have different block finality times. Cross-chain swaps involving chains with longer finality (e.g., Bitcoin, Ethereum mainnet) will take longer to complete.
+**Finality times** Different chains have different block finality times. Cross-chain swaps involving chains with longer finality (e.g., Bitcoin, Ethereum mainnet) will take longer to complete.
 
-**Wallet compatibility** — Not all wallets support all chains. Make sure your wallet supports the destination chain before swapping. See [Wallets](wallets.md) for supported wallet types by ecosystem.
+**Wallet compatibility** Not all wallets support all chains. Make sure your wallet supports the destination chain before swapping. See [Wallets](wallets.md) for supported wallet types by ecosystem.

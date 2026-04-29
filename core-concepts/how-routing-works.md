@@ -12,11 +12,11 @@ When you enter a swap, the routing engine runs through four stages:
 
 ### 1. Quote collection
 
-The engine queries all integrated providers simultaneously with your swap parameters — source token, destination token, amount, and any preferences you've set (slippage tolerance, excluded providers). Each provider returns one or more possible routes.
+The engine queries all integrated providers simultaneously with your swap parameters source token, destination token, amount, and any preferences you've set (slippage tolerance, excluded providers). Each provider returns one or more possible routes.
 
 ### 2. Path simulation
 
-Each returned route is simulated end-to-end. The engine doesn't just compare raw quotes — it models the full execution path and calculates what you'd actually receive after:
+Each returned route is simulated end-to-end. The engine doesn't just compare raw quotes it models the full execution path and calculates what you'd actually receive after:
 
 - Network gas fees on source and destination chains
 - Bridge or cross-chain transport fees
@@ -26,7 +26,7 @@ Each returned route is simulated end-to-end. The engine doesn't just compare raw
 
 ### 3. Net-output ranking
 
-Routes are ranked by **net output** — the final amount delivered to your wallet after all costs are deducted. This is the number that matters, and it's what 7.Exchange optimizes for by default.
+Routes are ranked by **net output** the final amount delivered to your wallet after all costs are deducted. This is the number that matters, and it's what 7.Exchange optimizes for by default.
 
 You can also sort by fastest execution time or lowest total fee, depending on your priority.
 
@@ -36,7 +36,7 @@ When you select and confirm a route, the engine builds an authenticated executio
 
 ## Why net-output ranking matters
 
-Most aggregators show you a gross quote — the headline number before fees are subtracted. This can be misleading. A route that quotes 1,000 USDC but charges 15 USDC in bridge fees and 5 USDC in gas is worse than a route quoting 990 USDC with 2 USDC in total fees.
+Most aggregators show you a gross quote the headline number before fees are subtracted. This can be misleading. A route that quotes 1,000 USDC but charges 15 USDC in bridge fees and 5 USDC in gas is worse than a route quoting 990 USDC with 2 USDC in total fees.
 
 7.Exchange compares routes by what actually arrives in your wallet. Every cost is factored in before ranking.
 
@@ -62,7 +62,7 @@ Cross-chain quotes are volatile. Prices, liquidity, and gas costs change constan
 
 - Each quote is assigned a **unique identifier**
 - Quotes have a **time-to-live** and expire automatically
-- Each quote can only be **used once** — no replay
+- Each quote can only be **used once** no replay
 - Quotes **refresh automatically** in the interface on a countdown timer
 
 If a quote expires before you execute, the system fetches a fresh one.
@@ -70,9 +70,9 @@ If a quote expires before you execute, the system fetches a fresh one.
 ## What the engine does not do
 
 - It does not hold or custody your funds at any point
-- It does not execute transactions on your behalf — you sign every transaction
+- It does not execute transactions on your behalf you sign every transaction
 - It does not run its own liquidity pools or bridge infrastructure
-- It does not guarantee a specific output amount — quotes are estimates based on current market conditions
+- It does not guarantee a specific output amount quotes are estimates based on current market conditions
 
 {% hint style="info" %}
 For details on how your transaction stays protected after you confirm a route, see [Cross-Chain Execution](cross-chain-execution.md).

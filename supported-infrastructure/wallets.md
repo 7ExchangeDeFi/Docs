@@ -20,7 +20,7 @@ This list reflects commonly used wallets. Additional wallets may work if they su
 
 ## Multi-wallet support
 
-You can connect wallets from different ecosystems at the same time. This is required when swapping between ecosystem types — for example, swapping an EVM token to a Solana token requires both an EVM wallet and a Solana wallet to be connected.
+You can connect wallets from different ecosystems at the same time. This is required when swapping between ecosystem types for example, swapping an EVM token to a Solana token requires both an EVM wallet and a Solana wallet to be connected.
 
 The swap interface automatically detects which connected wallet to use based on the source and destination chains you've selected.
 

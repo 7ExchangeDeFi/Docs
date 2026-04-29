@@ -33,17 +33,17 @@ Once connected, your wallet address appears in the navigation bar. You can now e
 
 Connecting your wallet is enough to start swapping. However, signing in with your wallet unlocks additional features:
 
-- **Profile** — Custom display name and avatar
-- **Transaction history** — View all past swaps
-- **Leaderboard** — Track your ranking
-- **Referral program** — Create and manage referral links
-- **Notifications** — Receive updates on your activity
+- **Profile** Custom display name and avatar
+- **Transaction history** View all past swaps
+- **Leaderboard** Track your ranking
+- **Referral program** Create and manage referral links
+- **Notifications** Receive updates on your activity
 
-To sign in, click your connected wallet address and select **Sign In**. You'll be asked to sign a message in your wallet. This signature verifies ownership of the address — it does not grant 7.Exchange access to your funds or approval to execute transactions.
+To sign in, click your connected wallet address and select **Sign In**. You'll be asked to sign a message in your wallet. This signature verifies ownership of the address it does not grant 7.Exchange access to your funds or approval to execute transactions.
 
 ## Multiple wallets
 
-You can connect wallets from different ecosystems simultaneously. This is useful when swapping between chains that use different wallet types — for example, swapping from an EVM token to a Solana token.
+You can connect wallets from different ecosystems simultaneously. This is useful when swapping between chains that use different wallet types for example, swapping from an EVM token to a Solana token.
 
 To connect an additional wallet, click the wallet menu and select **Connect a Different Wallet**.
 

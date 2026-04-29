@@ -8,7 +8,7 @@ description: Answers to common questions about 7.Exchange.
 
 ### What is 7.Exchange?
 
-7.Exchange is a cross-chain DEX aggregator. It connects to multiple bridges, DEXs, and liquidity sources across chains and finds the swap route that delivers the best net output — after accounting for gas, bridge fees, slippage, and MEV risk. It's non-custodial: your funds stay in your wallet until you sign a transaction.
+7.Exchange is a cross-chain DEX aggregator. It connects to multiple bridges, DEXs, and liquidity sources across chains and finds the swap route that delivers the best net output after accounting for gas, bridge fees, slippage, and MEV risk. It's non-custodial: your funds stay in your wallet until you sign a transaction.
 
 ### Do I need to create an account?
 
@@ -30,7 +30,7 @@ Connect your wallet, select source and destination tokens, review the available 
 
 ### How does 7.Exchange find the best rate?
 
-The routing engine queries all integrated providers simultaneously, simulates each route end-to-end, and ranks them by net output — the actual amount that arrives in your wallet after all fees. See [How Routing Works](../core-concepts/how-routing-works.md) for details.
+The routing engine queries all integrated providers simultaneously, simulates each route end-to-end, and ranks them by net output the actual amount that arrives in your wallet after all fees. See [How Routing Works](../core-concepts/how-routing-works.md) for details.
 
 ### Can I swap between different chain types?
 
@@ -42,7 +42,7 @@ Same-chain swaps typically confirm in seconds. Cross-chain swaps range from unde
 
 ### What if my swap is stuck?
 
-Cross-chain swaps can take longer than expected during periods of network congestion. If your transaction shows "In progress" for an extended period, wait — most transactions resolve on their own. If it remains unresolved, contact support with your Transaction ID or Quote ID. See [Transaction Tracking](../features/transaction-tracking.md) for more details.
+Cross-chain swaps can take longer than expected during periods of network congestion. If your transaction shows "In progress" for an extended period, wait most transactions resolve on their own. If it remains unresolved, contact support with your Transaction ID or Quote ID. See [Transaction Tracking](../features/transaction-tracking.md) for more details.
 
 ### Can I cancel a swap?
 
@@ -56,7 +56,7 @@ A routing fee on each transaction, plus network gas fees, bridge fees, and DEX f
 
 ### Are there hidden fees?
 
-No. Every cost — routing fee, gas, bridge fee, and DEX fee — is factored into the net output shown in the route preview. The amount you see is the amount you should expect to receive, subject to slippage.
+No. Every cost routing fee, gas, bridge fee, and DEX fee is factored into the net output shown in the route preview. The amount you see is the amount you should expect to receive, subject to slippage.
 
 ### Does the referral program increase my costs?
 

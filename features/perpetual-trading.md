@@ -1,5 +1,5 @@
 ---
-description: Aggregated perpetual trading across on-chain venues — coming soon.
+description: Aggregated perpetual trading across on-chain venues coming soon.
 ---
 
 # Perpetual Trading

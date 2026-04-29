@@ -8,7 +8,7 @@ All notable updates to 7.Exchange are documented here. This page is updated with
 
 ---
 
-## Q2 2026 — Platform Launch
+## Q2 2026 Platform Launch
 
 **April 2026**
 

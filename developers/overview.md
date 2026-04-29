@@ -1,5 +1,5 @@
 ---
-description: API, SDK, and integration tools for developers — coming soon.
+description: API, SDK, and integration tools for developers coming soon.
 ---
 
 # Developers

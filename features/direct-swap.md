@@ -1,5 +1,5 @@
 ---
-description: Swap without connecting a wallet — coming soon.
+description: Swap without connecting a wallet coming soon.
 ---
 
 # Direct Swap
@@ -13,9 +13,9 @@ Direct Swap will allow you to execute swaps without connecting a wallet to 7.Exc
 ## How it will work
 
 1. Select your source and destination token, chain, and amount.
-2. Enter your **receiving address** — the wallet where you want the output delivered.
+2. Enter your **receiving address** the wallet where you want the output delivered.
 3. 7.Exchange generates a **deposit address** with an amount and expiration window.
-4. Send the exact amount to the deposit address from any source — your own wallet, a hardware wallet, a CEX withdrawal, or any application that can send crypto.
+4. Send the exact amount to the deposit address from any source your own wallet, a hardware wallet, a CEX withdrawal, or any application that can send crypto.
 5. The swap executes automatically.
 6. Output is delivered to your receiving address.
 
@@ -38,4 +38,4 @@ Direct Swap will initially be available for a subset of supported pairs where th
 
 - A refund address option in case the swap cannot be completed
 - Minimum amounts to cover execution costs
-- Expiration windows on deposit addresses — deposits sent after expiration may be delayed or require manual recovery
+- Expiration windows on deposit addresses deposits sent after expiration may be delayed or require manual recovery

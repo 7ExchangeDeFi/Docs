@@ -8,7 +8,7 @@ description: Supported tokens on 7.Exchange.
 
 ## Finding tokens
 
-In the swap interface, use the token selector to search for tokens by name, symbol, or contract address. Tokens are organized by chain — select a chain first, then browse or search for the token you need.
+In the swap interface, use the token selector to search for tokens by name, symbol, or contract address. Tokens are organized by chain select a chain first, then browse or search for the token you need.
 
 ## Token metadata
 
@@ -27,7 +27,7 @@ If a token isn't listed in the default token list but you have its contract addr
 The token will be added to your personal token list and available for selection in the swap interface.
 
 {% hint style="warning" %}
-Only import tokens from contract addresses you trust. Anyone can deploy a token contract — verify the address through the project's official channels before importing.
+Only import tokens from contract addresses you trust. Anyone can deploy a token contract verify the address through the project's official channels before importing.
 {% endhint %}
 
 ## Token availability by route

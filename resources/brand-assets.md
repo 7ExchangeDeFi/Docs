@@ -13,7 +13,7 @@ The correct brand name is **7.Exchange** (with the period). In contexts where a 
 ## Logo usage
 
 - Use the official logo files provided below. Do not recreate, modify, or distort the logo.
-- Maintain clear space around the logo — do not crowd it with other elements.
+- Maintain clear space around the logo do not crowd it with other elements.
 - Do not change the logo colors. Use the provided color variations for light and dark backgrounds.
 
 ## Downloads

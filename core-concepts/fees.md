@@ -34,13 +34,13 @@ When your route involves a swap on a decentralized exchange, the DEX and its liq
 
 Every route in the swap interface shows total fees. Click **Fee Breakdown** on any route to see a detailed split of where each cost comes from.
 
-The **Output** number shown for each route is always net — all fees have already been deducted. The amount displayed is what you should expect to receive.
+The **Output** number shown for each route is always net all fees have already been deducted. The amount displayed is what you should expect to receive.
 
 ## Fee comparison across routes
 
 Different routes for the same swap can have different fee structures. A route through Bridge A might charge a higher bridge fee but offer lower slippage, resulting in a better net output than a route through Bridge B with a lower bridge fee but worse execution.
 
-This is why 7.Exchange ranks routes by net output rather than by lowest fee — the cheapest route isn't always the best route.
+This is why 7.Exchange ranks routes by net output rather than by lowest fee the cheapest route isn't always the best route.
 
 {% hint style="info" %}
 You can sort routes by **Lowest Fee** if minimizing cost is your priority, but the **Highest Output** sort (default) typically delivers the best overall result.
@@ -48,6 +48,6 @@ You can sort routes by **Lowest Fee** if minimizing cost is your priority, but t
 
 ## Referral fee sharing
 
-If you were referred to 7.Exchange through an affiliate link, a portion of the routing fee may be shared with the referrer. This does not increase your cost — the referral share comes from the platform's fee, not from your output.
+If you were referred to 7.Exchange through an affiliate link, a portion of the routing fee may be shared with the referrer. This does not increase your cost the referral share comes from the platform's fee, not from your output.
 
 For more on how this works, see [Referral Program](../features/referral-program.md).
