@@ -26,8 +26,9 @@ Brand asset files will be available for download here. If you need assets before
 
 | Color | Hex | Usage |
 |---|---|---|
-| Primary Cyan | `#00E5FF` | Accent color, interactive elements |
-| Dark Background | `#0A0E17` | Primary background |
+| Primary Cyan | `#00D0FF` | Accent color, interactive elements |
+| Dark Surface | `#152224` | Primary surface color  |
+| Dark Background | `#0c0c0c` | Primary background |
 | White | `#FFFFFF` | Text on dark backgrounds |
 
 ## Contact

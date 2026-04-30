@@ -9,17 +9,18 @@ description: Official 7.Exchange channels and community links.
 | Channel | Link |
 |---|---|
 | **Website** | [7.exchange](https://7.exchange) |
-| **App** | [7.exchange](https://7.exchange) |
-| **Documentation** | [docs.7.exchange](https://docs.7.exchange) |
+| **App** | [7.exchange/swap](https://7.exchange/swap) |
+| **Documentation** | [7exchange.gitbook.io](https://7exchange.gitbook.io) |
+| **Medium** | [7-exchange.medium.com](https://7-exchange.medium.com/) |
 
 ## Social
 
 | Platform | Link |
 |---|---|
 | **X (Twitter)** | [@7exchangeDeFi](https://x.com/7exchangeDeFi) |
-| **Discord** | [7.Exchange](https://discord.gg/your-server) |
+| **Discord** | [7.Exchange](https://discord.com/invite/8aujTp5znT) |
 | **Telegram** | [@Dex\_7exchange](https://t.me/Dex_7exchange) |
-| **LinkedIn** | [7exchange](https://linkedin.com/company/7exchange) |
+| **LinkedIn** | [7exchange](https://www.linkedin.com/company/7exchange) |
 
 ## Development
 
@@ -31,10 +32,8 @@ description: Official 7.Exchange channels and community links.
 
 | Purpose | Contact |
 |---|---|
-| **General** | [contact@7.exchange](mailto:contact@7.exchange) |
-| **Support** | [support@7.exchange](mailto:support@7.exchange) |
-| **Security** | [contact@7.exchange](mailto:contact@7.exchange) |
-| **Partnerships** | [contact@7.exchange](mailto:contact@7.exchange) |
+| **Email** | [contact@7.exchange](mailto:contact@7.exchange) |
+| **Security** | [bug report panel](https://discord.gg/DArANebGFm) |
 
 {% hint style="warning" %}
 7.Exchange will never DM you first on any platform asking for funds, private keys, or seed phrases. Any such contact is a scam. Always verify links through this page or the official website.
