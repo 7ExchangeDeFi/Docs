@@ -22,30 +22,39 @@ For a full list of supported wallets, see [Wallets](../supported-infrastructure/
 
 ## Connecting your wallet
 
-1. Go to [7.exchange](https://7.exchange).
-2. Click **Connect Wallet** in the top navigation.
-3. Select your wallet provider from the list.
-4. Approve the connection request in your wallet.
+1. Go to [app](https://7.exchange/swap).
+2. Click **Connect** in the top navigation.
+3. Select ecosystem.
+4. Select your wallet provider from the list.
+5. Approve the connection request in your wallet.
 
-Once connected, your wallet address appears in the navigation bar. You can now execute swaps immediately.
+{% hint style="info" %}
+By selecting **WalletConnect** you can connect multiple namespaces at once
+{% endhint %}
+
+Once connected, your wallet balance appears in the navigation bar. You can view connected wallet addresses by clicking on it.
 
 ## Signing in (optional)
 
 Connecting your wallet is enough to start swapping. However, signing in with your wallet unlocks additional features:
 
-- **Profile** Custom display name and avatar
-- **Transaction history** View all past swaps
-- **Leaderboard** Track your ranking
-- **Referral program** Create and manage referral links
-- **Notifications** Receive updates on your activity
+- **Profile**: Custom display name and avatar
+- **Transaction history**: View all past swaps
+- **Leaderboard**: Track your ranking
+- **Referral program**: Create and manage referral links
+- **Notifications**: Receive updates on your activity
 
-To sign in, click your connected wallet address and select **Sign In**. You'll be asked to sign a message in your wallet. This signature verifies ownership of the address it does not grant 7.Exchange access to your funds or approval to execute transactions.
+To sign in, click **account icon** and select **Sign in to view profil**. You'll be asked to sign a message in your wallet. This signature verifies ownership of the address it does not grant 7.Exchange access to your funds or approval to execute transactions.
 
 ## Multiple wallets
 
 You can connect wallets from different ecosystems simultaneously. This is useful when swapping between chains that use different wallet types for example, swapping from an EVM token to a Solana token.
 
-To connect an additional wallet, click the wallet menu and select **Connect a Different Wallet**.
+To connect an additional wallet, click on **add wallet icon**.
+
+{% hint style="info" %}
+You can bind and un-bind multiple wallet addresses to your profile and affiliate links.
+{% endhint %}
 
 ## Disconnecting
 

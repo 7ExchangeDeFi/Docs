@@ -20,9 +20,10 @@ If a token isn't listed in the default token list but you have its contract addr
 
 1. Open **Swap Settings**.
 2. Go to **Custom Tokens**.
-3. Select the chain the token is on.
-4. Enter the contract address.
-5. Click **Import**.
+3. Click on **Add custom token**
+4. Select the chain the token is on.
+5. Enter the contract address.
+6. Click **Import**.
 
 The token will be added to your personal token list and available for selection in the swap interface.
 

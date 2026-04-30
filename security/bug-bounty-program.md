@@ -23,7 +23,7 @@ The bug bounty program currently covers:
 
 ## How to report
 
-1. Email your findings to **security@7.exchange** (or contact@7.exchange if no dedicated security email is available).
+1. file a ticket with your findings to our [bug report panel](https://discord.gg/DArANebGFm) on Discord.
 2. Include a clear description of the vulnerability, steps to reproduce, and the potential impact.
 3. Provide any supporting evidence (transaction hashes, code references, proof of concept).
 4. Do not disclose the vulnerability publicly before it has been acknowledged and resolved.

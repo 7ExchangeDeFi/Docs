@@ -4,7 +4,7 @@ description: Swap tokens across chains through a single interface.
 
 # Cross-Chain Swaps
 
-Cross-chain swaps are the core feature of 7.Exchange. Swap any supported token on any supported chain to any other supported token on any other chain all from one interface.
+Cross-chain swaps are the core feature of 7.Exchange. Swap any supported token on any supported chain to any other supported token on any other chain, all from one interface.
 
 ## How it works
 
@@ -25,6 +25,40 @@ You don't need to think about these steps. The routing engine evaluates all poss
 
 Same-chain and cross-chain swaps use the same interface and the same routing logic.
 
+## Route selection
+
+Once you set your source and destination tokens and enter an amount, 7.Exchange fetches quotes from all available providers and displays them as routes. Each route shows the estimated output, total fees, estimated completion time, and the provider handling each step.
+
+Routes are tagged to help you compare at a glance. Tags include **Recommended**, **Fastest**, **Lowest Fee**, and **Direct Send**. You can sort routes by highest output, fastest execution, or lowest fee depending on your priority.
+
+Quotes refresh automatically on a countdown timer, and you can manually refresh at any time.
+
+## Swap participants
+
+Before confirming a route, you choose your swap participants: the source and destination wallet addresses.
+
+If you have multiple wallets connected, you can select which wallet to use for each side. You can also manually type or paste any wallet address into the input fields instead of selecting a connected wallet. This is useful when you want to send from or receive at an address that isn't connected to the platform.
+
+For most routes, the source address must match a connected wallet since the platform needs your wallet to sign the transaction. For routes tagged with **Direct Send**, you can enter any source address manually because you will be sending the funds yourself outside the platform.
+
+The destination address determines where your swapped tokens are delivered. By default this is your connected wallet on the destination chain, but you can change it to any valid address.
+
+{% hint style="warning" %}
+Double-check both the source and destination addresses and their chains before confirming. Cross-chain transactions are irreversible. Tokens sent to an incorrect address cannot be recovered.
+{% endhint %}
+
+## Direct Send
+
+Routes tagged with **Direct Send** do not require a connected wallet. Instead of signing a transaction through the platform, you manually send funds to a deposit address provided after you execute the quote.
+
+Direct Send is useful when you want to swap from a hardware wallet, a custodial exchange, or any wallet that the platform does not support for direct connection.
+
+After you execute a Direct Send route, the platform displays a deposit address and a QR code. Open your own wallet and send exactly the amount shown on screen to that address. You can scan the QR code or copy the address. Once the platform detects your deposit, the swap executes automatically and the funds are delivered to your destination address.
+
+{% hint style="danger" %}
+**Direct Send transactions are irreversible and cannot be corrected after the fact.** You must send the exact amount displayed, to the exact address provided, using the correct token on the correct network. Sending the wrong amount, the wrong token, or sending on the wrong chain will result in permanent loss of funds. 7.Exchange cannot recover, refund, or reverse any Direct Send transaction. Double-check everything before you send.
+{% endhint %}
+
 ## Execution time
 
 Same-chain swaps typically confirm within seconds. Cross-chain swaps take longer because they depend on:
@@ -35,13 +69,9 @@ Same-chain swaps typically confirm within seconds. Cross-chain swaps take longer
 
 Most cross-chain swaps complete within a few minutes. Some combinations (particularly those involving chains with long finality times) may take longer. The estimated time is always shown in the route details before you confirm.
 
-## Recipient address
+## Slippage
 
-By default, swapped tokens are delivered to your connected wallet on the destination chain. If you need to receive tokens at a different address, you can enter a custom recipient address in the swap interface.
-
-{% hint style="warning" %}
-Double-check the recipient address and chain before confirming. Cross-chain transactions are irreversible. Tokens sent to an incorrect address cannot be recovered.
-{% endhint %}
+You can adjust your slippage tolerance in the settings before confirming a swap. Slippage tolerance sets the maximum price deviation you are willing to accept between the quoted output and the final executed amount. The default value is usually sufficient, but you may want to adjust it for volatile tokens or low-liquidity pairs.
 
 ## Limits
 

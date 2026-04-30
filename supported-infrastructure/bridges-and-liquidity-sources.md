@@ -18,13 +18,13 @@ For on-chain swaps (within a single chain or as part of a multi-step cross-chain
 
 ## Provider selection
 
-7.Exchange is provider-agnostic. The routing engine does not favor any single provider. For each swap, all available providers are queried and the best result is selected based on net output, speed, or fee depending on your sort preference.
+**7.Exchange is provider-agnostic**. The routing engine does not favor any single provider. For each swap, all available providers are queried and the best result is selected based on net output, speed, or fee depending on your sort preference.
 
 Different providers may be optimal for different swaps depending on the token pair, amount, and chain combination.
 
 ## Live integrations
 
-The current list of all integrated bridges, DEXs, liquidity sources, and services is available on the [Integrations page](https://7.exchange/integrations) on the main site. You can filter by type (bridge, DEX, liquidity, service) to explore what's available.
+The current list of all integrated bridges, DEXs, liquidity sources, and services is available on the [Integrations page](https://7.exchange/#integrations) on the main site. You can filter by type (bridge, DEX, liquidity, service) to explore what's available.
 
 ## Excluding providers
 

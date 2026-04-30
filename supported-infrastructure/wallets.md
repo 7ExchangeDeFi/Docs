@@ -8,7 +8,7 @@ description: Supported wallets on 7.Exchange.
 
 ## Supported wallets by ecosystem
 
-| Ecosystem | Supported Wallets |
+| Ecosystem | Examples |
 |---|---|
 | **EVM** | MetaMask, Trust Wallet, Rabby, Coinbase Wallet, Rainbow, and any WalletConnect-compatible wallet |
 | **Solana** | Phantom, Solflare |
@@ -16,7 +16,14 @@ description: Supported wallets on 7.Exchange.
 | **Sui** | Sui Wallet |
 | **Tron** | TronLink |
 
-This list reflects commonly used wallets. Additional wallets may work if they support standard connection protocols (WalletConnect for EVM, Wallet Standard for Solana).
+## Live wallets list
+
+The list of supported chains changes as providers add or deprecate network support. For the current live list, visit the [Integrations page](https://7.exchange/#integrations) on the main site, where you can filter by chain, bridge, DEX, and wallet.
+
+{% hint style="info" %}
+This list reflects directly integrated wallets. Additional wallets work if they support standard connection protocols like WalletConnect.
+For the current list of wallets supported by WalletConnect, visit the [walletguide](https://walletguide.walletconnect.network/)
+{% endhint %}
 
 ## Multi-wallet support
 

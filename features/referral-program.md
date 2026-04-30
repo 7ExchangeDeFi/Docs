@@ -11,7 +11,11 @@ description: Earn crypto rewards by referring traders to 7.Exchange.
 1. **Sign in** Connect your wallet and sign in to access the affiliate dashboard.
 2. **Create a referral link** Go to the Affiliate page and create a named referral link. You can create multiple links for different channels (e.g., one for Twitter, one for Discord, one for friends).
 3. **Share your link** Send your link to others or share it publicly.
-4. **Earn rewards** When someone uses your link and trades on supported chains, you earn a percentage of the routing fee from their transactions.
+4. **Earn rewards** When someone uses your link and trades, the entire integrator fee is redirected to you instead of 7.Exchange.
+
+{% hint style="warning" %}
+Not all routes support affiliate fees.
+{% endhint %}
 
 ## Affiliate dashboard
 
@@ -19,7 +23,6 @@ Your affiliate dashboard shows:
 
 - **My Links** All your referral links with performance data
 - **Referral Activity** Real-time feed of trades made by your referrals, including swap details, reward amount, and status
-- **Stats** Total rewards earned, number of referrals, and referral volume
 
 ## Creating referral links
 

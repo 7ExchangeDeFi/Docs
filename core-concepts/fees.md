@@ -10,37 +10,47 @@ description: How fees work on 7.Exchange.
 
 A swap on 7.Exchange may include the following costs:
 
-### Routing fee
+### Integrator fee
 
-A small service fee charged by 7.Exchange on each transaction. This fee supports platform development and infrastructure. The exact percentage varies by route and is always shown in the fee breakdown.
+7.Exchange charges a flat **0.1%** integrator fee on each transaction. This fee supports platform development and infrastructure.
+
+If you swap using a referral link, the entire 0.1% integrator fee is redirected to the referrer instead of 7.Exchange. Your cost stays exactly the same. You always pay 0.1%; the only difference is who receives it.
 
 ### Network gas fees
 
-Every on-chain transaction requires gas. Gas fees go to the blockchain network validators, not to 7.Exchange. Gas costs depend on:
+Every on-chain transaction requires gas. Gas fees go to the blockchain network validators, not to 7.Exchange. Gas costs depend on which chain you are transacting on, current network congestion, and transaction complexity (multi-step routes use more gas).
 
-- Which chain you're transacting on
-- Current network congestion
-- Transaction complexity (multi-step routes use more gas)
+Cross-chain swaps may involve gas on both the source chain (paid by you directly) and the destination chain (typically included in the bridge fee or quoted output).
 
-### Bridge fees
+### Bridge and protocol fees
 
-Cross-chain swaps use bridge protocols to transfer assets between chains. Each bridge charges its own fee for this service. Bridge fees vary by provider, chain pair, and transfer amount.
+Cross-chain swaps use bridge protocols to transfer assets between chains. Each bridge charges its own fees for this service. Depending on the provider and route, these may include:
 
-### DEX and liquidity provider fees
+- **Liquidity / LP fee** - paid to liquidity providers who facilitate the swap or bridge transfer. The pricing model varies by provider (utilization-based, slip-based, or spread-based).
+- **Protocol / network fee** - a service fee charged by the bridge protocol itself for facilitating the operation.
+- **Destination gas fee** - the cost of executing the transaction on the destination chain, covered by the bridge and included in the quoted fee.
+- **Messaging fee** - for routes using LayerZero, this covers cross-chain message verification and execution.
+- **Boost fee** - an optional fee on Chainflip routes for faster deposit confirmation.
+
+Bridge fees vary by provider, chain pair, and transfer amount. All applicable fees are itemized in the fee breakdown.
+
+### Swap and price impact
 
 When your route involves a swap on a decentralized exchange, the DEX and its liquidity providers charge a fee (typically a small percentage of the trade). This is standard across all DEXs and is built into the quoted output.
 
+Price impact reflects how much your trade moves the market price due to available liquidity. Larger trades relative to pool size result in higher price impact. This is shown separately from fees in the route preview when applicable.
+
 ## How to see fees
 
-Every route in the swap interface shows total fees. Click **Fee Breakdown** on any route to see a detailed split of where each cost comes from.
+Every route in the swap interface shows total fees. Click **Fee Breakdown** on any route to see a detailed split of where each cost comes from. Each fee line item shows the amount, the token it is denominated in, and its USD equivalent.
 
-The **Output** number shown for each route is always net all fees have already been deducted. The amount displayed is what you should expect to receive.
+The **Output** number shown for each route is always net: all fees have already been deducted. The amount displayed is what you should expect to receive.
 
 ## Fee comparison across routes
 
 Different routes for the same swap can have different fee structures. A route through Bridge A might charge a higher bridge fee but offer lower slippage, resulting in a better net output than a route through Bridge B with a lower bridge fee but worse execution.
 
-This is why 7.Exchange ranks routes by net output rather than by lowest fee the cheapest route isn't always the best route.
+This is why 7.Exchange ranks routes by net output rather than by lowest fee. The cheapest route is not always the best route.
 
 {% hint style="info" %}
 You can sort routes by **Lowest Fee** if minimizing cost is your priority, but the **Highest Output** sort (default) typically delivers the best overall result.
@@ -48,6 +58,10 @@ You can sort routes by **Lowest Fee** if minimizing cost is your priority, but t
 
 ## Referral fee sharing
 
-If you were referred to 7.Exchange through an affiliate link, a portion of the routing fee may be shared with the referrer. This does not increase your cost the referral share comes from the platform's fee, not from your output.
+7.Exchange charges a 0.1% integrator fee on every swap. When you swap using a referral link, that 0.1% is redirected entirely to the referrer. Your cost stays exactly the same.
+
+{% hint style="warning" %}
+Not all routes support affiliate fees.
+{% endhint %}
 
 For more on how this works, see [Referral Program](../features/referral-program.md).
